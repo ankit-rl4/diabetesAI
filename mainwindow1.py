@@ -15,6 +15,7 @@ class Ui_mainwindow(object):
     def setupUi(self, mainwindow):
         mainwindow.setObjectName("mainwindow")
         mainwindow.resize(356, 527)
+        mainwindow.setWindowIcon(QtGui.QIcon('logo.png'))
         self.centralwidget = QtWidgets.QWidget(mainwindow)
         self.centralwidget.setObjectName("centralwidget")
         self.groupBox = QtWidgets.QGroupBox(self.centralwidget)
@@ -127,5 +128,5 @@ class Ui_mainwindow(object):
         self.label_8.setText(_translate("mainwindow", "Pregnancies :"))
         self.pushButton.setText(_translate("mainwindow", "Submit"))
         self.label_9.setText(_translate("mainwindow", " "))
-        self.label_10.setText(_translate("mainwindow", "Visit our website for more info :- ankitwankhede.engineer"))
+        self.label_10.setText(_translate("mainwindow", "Visit our website for more info :-  < a href = 'www.ankitwankhede.engineer' > ankitwankhede.engineer< / a >"))
 
