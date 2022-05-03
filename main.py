@@ -13,6 +13,7 @@ class MainWindow(QMainWindow,Ui_mainwindow):
         self.ui.setupUi(self)
         self.detect=Diabetes()
         self.ui.pushButton.clicked.connect(self.on_click)
+        self.ui.label_10.setOpenExternalLinks(True)
 
 
     def on_click(self):
