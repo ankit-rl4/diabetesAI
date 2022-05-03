@@ -36,9 +36,9 @@ class Diabetes():
 
 
 		if (prediction[0] == 0):
-		  print('The person is not diabetic')
+		  return False
 		else:
-		  print('The person is diabetic')
+		  return True
 
 if __name__=="__main__":
 	x=Diabetes()
